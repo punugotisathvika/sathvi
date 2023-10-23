@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightskyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.task-container {
+    background-color:rgb(194, 55, 99);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(9, 114, 219, 0.1);
+    text-align: center;
+}
+
+.input-group {
+    margin-bottom: 20px;
+    
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #6f1a6f;
+}
+button{
+    background-color:#e9cc2c;
+}
